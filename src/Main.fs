@@ -5,6 +5,7 @@ open App
 open Browser.Dom
 open Fable.Core.JsInterop
 
+Fable.Core.JsInterop.importSideEffects "./index.css"
 
 console.log("Fable is up and running...");
 
