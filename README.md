@@ -1,6 +1,6 @@
-# Fable Minimal Snowpack App
+# Fable Feliz Feliz.DaisyUI Vite App
 
-This is a small Fable app project which uses [Snowpack](https://www.snowpack.dev/) so you can easily get started and add your own code progressively.
+This is a template Fable project for me which uses [Vite](https://fable.io/Fable.Lit/docs/hmr.html) so you can easily get started and add your own code progressively.
 
 
 ## Requirements
@@ -12,12 +12,12 @@ This is a small Fable app project which uses [Snowpack](https://www.snowpack.dev
 
 ## Building and running the app
 
-* Navigate to directory: `cd src`
 * Install dependencies: `npm install`
-* Start the development server: `npm run dev`
+* npm i -D vite
+* npx vite --open     # Start dev server and open browser
+* npx vite build      # Build your site for production
 
 Any modification you do to the F# code will be reflected in the web page after saving.
-
 
 ## Project structure
 
@@ -33,7 +33,6 @@ Any modification you do to the F# code will be reflected in the web page after s
 │   ├── favicon.ico - Fable favicon
 │   ├── index.html - Main HTML file
 │   └── robots.txt
-├── snowpack.config.js - Snowpack configuration
 └── src
     ├── App.fs - F# sample code
     └── App.fsproj - F# project
@@ -42,3 +41,9 @@ Any modification you do to the F# code will be reflected in the web page after s
 ## Stuff I (jasiozet) added:
 * Feliz https://zaid-ajaj.github.io/Feliz/#/
 * Feliz.DaisyUI https://dzoukr.github.io/Feliz.DaisyUI/#/
+* Vite https://fable.io/Fable.Lit/docs/hmr.html
+
+Commands for that:
+* femto install Feliz
+* femto Feliz.DaisyUI
+* npm i -D vite
