@@ -14,6 +14,7 @@ This is a template Fable project for me which uses [Vite](https://fable.io/Fable
 
 * Install dependencies: `npm install`
 * Run the app: `npm start`
+* Build the app for deployment: `npm run build`
 
 Any modification you do to the F# code will be reflected in the web page after saving.
 
