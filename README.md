@@ -13,7 +13,7 @@ This is a template Fable project for me which uses [Vite](https://fable.io/Fable
 ## Building and running the app
 
 * Install dependencies: `npm install`
-* Run the app: `npm run`
+* Run the app: `npm start`
 
 Any modification you do to the F# code will be reflected in the web page after saving.
 
