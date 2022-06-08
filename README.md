@@ -5,7 +5,7 @@ This is a template Fable project for me which uses [Vite](https://fable.io/Fable
 
 ## Requirements
 
-* [dotnet SDK](https://www.microsoft.com/net/download/core) 5.0 or higher
+* [dotnet SDK](https://www.microsoft.com/net/download/core) 6.0 or higher
 * [node.js](https://nodejs.org)
 * An F# editor like Visual Studio, Visual Studio Code with [Ionide](http://ionide.io/) or [JetBrains Rider](https://www.jetbrains.com/rider/)
 
