@@ -12,7 +12,7 @@ This is a small Fable app project which uses [Snowpack](https://www.snowpack.dev
 
 ## Building and running the app
 
-* Navigate to directory: `cd src/Web`
+* Navigate to directory: `cd src`
 * Install dependencies: `npm install`
 * Start the development server: `npm run dev`
 
@@ -38,3 +38,7 @@ Any modification you do to the F# code will be reflected in the web page after s
     ├── App.fs - F# sample code
     └── App.fsproj - F# project
 ```
+
+## Stuff I (jasiozet) added:
+* Feliz https://zaid-ajaj.github.io/Feliz/#/
+* Feliz.DaisyUI https://dzoukr.github.io/Feliz.DaisyUI/#/
