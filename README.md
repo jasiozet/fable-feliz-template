@@ -13,9 +13,7 @@ This is a template Fable project for me which uses [Vite](https://fable.io/Fable
 ## Building and running the app
 
 * Install dependencies: `npm install`
-* npm i -D vite
-* npx vite --open     # Start dev server and open browser
-* npx vite build      # Build your site for production
+* Run the app: `npm run`
 
 Any modification you do to the F# code will be reflected in the web page after saving.
 
@@ -29,12 +27,15 @@ Any modification you do to the F# code will be reflected in the web page after s
 ├── package.json - JS dependencies
 ├── build - Ready to deploy files when you run `npm run build`
 ├── dist - Compiled JS from F# file
+├── index.html - Main HTML file
+├── vite.config.js - config for vite
+├── tailwind.config.js - config for tailwind
 ├── public
 │   ├── favicon.ico - Fable favicon
-│   ├── index.html - Main HTML file
-│   └── robots.txt
 └── src
-    ├── App.fs - F# sample code
+    ├── Main.fs - F# sample code
+    ├── Extensions.fs - F# helper functions from Feliz template
+    ├── Components.fs - F# sample react component
     └── App.fsproj - F# project
 ```
 
