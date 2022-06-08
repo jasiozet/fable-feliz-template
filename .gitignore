@@ -292,3 +292,5 @@ dist/
 build/
 .clj-kondo
 .lsp
+*.fs.js
+*.fs.js.map
